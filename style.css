@@ -1,0 +1,1103 @@
+@import "https://fonts.googleapis.com/css2?family=Jost&display=swap";
+:root {
+  --color1: #f2f4f8;
+  --color2: #707070;
+  --color3: #fff;
+  --blue: #3c72fc;
+}
+html {
+  font-size: 62.5%;
+  background-color: var(--body-bg);
+}
+body {
+  font-family: "jost", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+header {
+  max-width: 100vw;
+  height: 100vh;
+  background-color: var(--color2);
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  width: 100%;
+  height: 14vh;
+  border-bottom: 1px solid var(--color3);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  border-right: 1px solid var(--color3);
+  color: var(--color3);
+  font-size: 1.8rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 3.4rem;
+}
+.navigation {
+  display: flex;
+  width: 58%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.navigation li {
+  list-style: none;
+  padding-right: 1rem;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: var(--color3);
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.016rem;
+  text-transform: uppercase;
+}
+.navigation ul li a:hover {
+  color: var(--blue);
+}
+.arrow-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow-down img {
+  padding-top: 10px;
+  padding-left: 6px;
+}
+.space {
+  width: 10%;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  width: 20%;
+  border-right: 1px solid var(--color3);
+}
+.social-icons img {
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+}
+.search {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--color3);
+}
+.search img {
+  width: 2.7rem;
+  height: 2.7rem;
+  flex-shrink: 0;
+}
+.help {
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color3);
+  font-size: 2rem;
+  font-family: Jost;
+  font-weight: 700;
+  line-height: 3.3rem;
+}
+.hero-section {
+  height: 86vh;
+  display: flex;
+  width: 100%;
+}
+.hero-content {
+  padding: 11rem 0 0 20rem;
+}
+.hero-section .hero-content p {
+  color: #fcfcfc;
+  font-size: 2rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 500;
+  line-height: 3.3rem;
+  letter-spacing: 0.0042rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.hero-section .hero-content h1 {
+  color: #fcfcfc;
+  font-size: 7rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 8rem;
+  letter-spacing: -0.0029rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.hero-section .hero-content .btn {
+  width: 19.8rem;
+  height: 5.7rem;
+  flex-shrink: 0;
+  background-color: var(--blue);
+  color: #fcfcfc;
+  font-size: 1.8rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 2.3rem;
+  letter-spacing: 0.0612rem;
+  border: none;
+  outline: none;
+}
+.section1 {
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  height: 120vh;
+  max-width: 100vw;
+  background-color: #0f0d1d;
+}
+.wrapper {
+  width: 80vw;
+  margin: 0 auto;
+}
+.section1-h h3 {
+  color: var(--color3);
+  font-size: 4rem;
+  font-family: "jost", sans-serif;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: 0.0016rem;
+  text-align: center;
+}
+.section1-p p {
+  color: #726f84;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 7rem;
+  letter-spacing: 0.0144rem;
+}
+.owl-carousel {
+  margin-bottom: 10rem;
+  position: relative;
+}
+.owl-carousel .card {
+  width: 42rem;
+  height: 28rem;
+  background-color: #000;
+  padding: 6rem 0 5rem 5rem;
+}
+.owl-carousel .item .card-h h3 {
+  color: var(--color3);
+  font-size: 2.4rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  line-height: 3.4rem;
+  letter-spacing: -0.0048rem;
+}
+.owl-carousel .item .card-content .card-p p {
+  color: #8f8da0;
+  font-size: 1.2rem;
+  font-family: Jost;
+  font-weight: 600;
+  line-height: 3.4rem;
+  letter-spacing: -0.0024rem;
+  text-transform: uppercase;
+  padding-top: 2rem;
+}
+.owl-carousel .item .card-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.owl-carousel .item .card-content .card-img,
+.owl-carousel .item .card-content .card-p {
+  width: 50%;
+}
+.owl-carousel .item .card-content .card-img img {
+  width: 10rem;
+}
+.centered h1 {
+  overflow: hidden;
+  text-align: center;
+  color: var(--color3);
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  line-height: 2.6rem;
+}
+.centered h1:before,
+.centered h1:after {
+  background-color: #32303d;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+.centered h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.centered h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.owl-prev {
+  position: absolute;
+  top: 47rem;
+  left: 0;
+  background-color: #3c72fc4d !important;
+  width: 3rem;
+  height: 3rem;
+}
+.owl-next {
+  position: absolute;
+  top: 47rem;
+  right: 0;
+  background-color: #3c72fc4d !important;
+  width: 3rem;
+  height: 3rem;
+}
+.owl-next img,
+.owl-prev img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.section2 {
+  height: 200vh;
+  max-width: 100vw;
+  position: relative;
+}
+.experience-sect {
+  height: 100vh;
+  display: flex;
+}
+.experience-sect-left {
+  flex: 1;
+}
+.experience-sect-left div {
+  background-color: var(--blue);
+  width: 9rem;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16rem;
+  margin-left: 20rem;
+}
+.experience-sect-left img {
+  z-index: 100;
+}
+.experience-sect-right {
+  position: relative;
+  flex: 1;
+}
+.experience-sect-right .content {
+  width: 60%;
+}
+.experience-sect-right .image {
+  position: absolute;
+  right: 0;
+  top: -3rem;
+  width: 40rem;
+  height: 40rem;
+  transform: translateX(9rem);
+}
+.case-studies {
+  height: 100vh;
+  background-color: var(--color1);
+}
+.experience-sect-right-h {
+  color: #0f0d1d;
+  font-size: 4rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: -0.0016rem;
+  text-transform: uppercase;
+  padding-top: 16rem;
+}
+.experience-sect-right-p .top-para {
+  color: #726f84;
+  font-size: 1.4rem;
+  font-family: Jost;
+  font-weight: 500;
+  line-height: 3.4rem;
+}
+.experience-sect-right-p .bottom-para {
+  color: var(--blue);
+  font-size: 1.8rem;
+  font-family: Jost;
+  font-weight: 500;
+  line-height: 3.4rem;
+}
+.progress-custom {
+  border-radius: 1rem !important;
+  height: 1.4rem !important;
+}
+.progress-bar-custom {
+  border-radius: 1rem !important;
+}
+.progressive-bar-content {
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.progress-bar-text {
+  color: #000;
+  font-size: 1.4rem;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+  letter-spacing: -0.028rem;
+}
+.percentage {
+  color: #726f84;
+}
+.bottom-content {
+  margin-top: 3rem;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.phone-img {
+  height: 100%;
+  width: 6rem;
+  margin-right: 2rem;
+  background-color: #ebf1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.phone-img img {
+  z-index: 100;
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+}
+.bottom-content-text p {
+  color: #726f84;
+  font-size: 1.8rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.9rem;
+}
+.number {
+  color: #0f0d1d;
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6rem;
+}
+.case-studies-content {
+  padding-top: 14rem;
+}
+.case-studies-h {
+  color: #0f0d1d;
+  font-size: 3.5rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 4rem;
+  letter-spacing: -0.0016rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.case-studies-p {
+  color: #8f8da0;
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.036rem;
+  padding-bottom: 2rem;
+}
+.case-studies-cards {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  column-gap: 2rem;
+}
+.case-studies-card {
+  position: relative;
+  width: 35.7rem;
+  height: 40rem;
+  background-color: #0f0d1d6b;
+  display: flex;
+  align-items: flex-end;
+  padding: 6rem;
+}
+.case-studies-card-text p {
+  color: var(--color3);
+  font-size: 1rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: -0.0014rem;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+.case-studies-card-text h1 {
+  color: var(--color3);
+  font-size: 2.2rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 2.4rem;
+  letter-spacing: -0.06rem;
+  text-transform: uppercase;
+}
+.case-studies-card-content .card-image,
+.case-studies-card-content-blue-bg .card-image {
+  margin-bottom: 2rem;
+}
+.case-studies-card-content-blue-bg {
+  background-color: var(--blue);
+  width: 30.1rem;
+  height: 30.4rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: 7rem;
+  padding-left: 6rem;
+}
+.floating-card1 {
+  width: 38vw;
+  height: 15vh;
+  background-color: var(--color3);
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  top: 50%;
+  left: 12vw;
+  transform: translateY(-50%);
+}
+.floating-card2 {
+  width: 38vw;
+  height: 15vh;
+  background-color: var(--color3);
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.16);
+  position: absolute;
+  top: 50%;
+  right: 12vw;
+  transform: translateY(-50%);
+}
+.floating-card {
+  display: flex;
+  align-items: center;
+  padding-left: 5rem;
+}
+.floating-card .heading {
+  color: #0f0d1d;
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6rem;
+}
+.floating-card .para {
+  color: #726f84;
+  font-size: 1.2rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.8rem;
+  padding-top: 1rem;
+}
+.floating-card .number {
+  background-color: #ebf1ff;
+  color: var(--blue);
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2rem;
+}
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0d1dbf;
+  height: 40vh;
+}
+.section3 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section3 .content div {
+  color: var(--color3);
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem;
+  letter-spacing: -0.0019rem;
+  text-transform: uppercase;
+}
+.section3 .content button {
+  width: 18rem;
+  height: 5rem;
+  flex-shrink: 0;
+  background-color: var(--blue);
+  color: #fcfcfc;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  align-self: center;
+  font-weight: 700;
+  line-height: 2.3rem;
+  letter-spacing: 0.0612rem;
+  border: none;
+  outline: none;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+.section4 {
+  height: 100vh;
+}
+.section4 .content {
+  padding-top: 5rem;
+}
+.section4 .content .heading {
+  color: #0f0d1d;
+  text-align: center;
+  font-size: 5rem;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 6rem;
+  letter-spacing: -0.0016rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.section4 .content .para {
+  color: #8f8da0;
+  font-size: 1.8rem;
+  font-family: Jost;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.036rem;
+  text-align: center;
+}
+.section4-questionAnswerParent {
+  display: flex;
+  padding-top: 3rem;
+}
+.section4-left {
+  flex: 1;
+}
+.section4-left .question {
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 30px rgba(0, 0, 30, 0.06);
+}
+.questionText .questionHeading {
+  color: #0f0d1d;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: -0.032rem;
+}
+.questionText .questionNo {
+  color: var(--blue);
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3rem;
+  letter-spacing: -0.036rem;
+  padding-right: 1rem;
+}
+.questionText .questionPara {
+  color: #726f84;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  letter-spacing: -0.032rem;
+}
+.bluebg {
+  background-color: var(--color1) !important;
+  margin-top: 3rem;
+  box-sizing: none !important;
+}
+.section4-right {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-left: 2.5rem;
+}
+.section4-right .check {
+  color: #726f84;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.4rem;
+  letter-spacing: -0.036rem;
+}
+.section4-right .check-icon {
+  width: 2rem;
+  height: 1.3rem;
+  flex-shrink: 0;
+  margin-right: 1rem;
+}
+.blueBox {
+  height: 18rem;
+  width: 18rem;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blueBox .number {
+  color: var(--color3);
+  font-size: 5rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 8rem;
+  letter-spacing: -0.14rem;
+}
+.blueBox .text {
+  color: var(--color3);
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+}
+.section5 {
+  background-color: var(--color1);
+  height: 249vh;
+  padding-top: 7rem;
+  position: relative;
+}
+.testimonials {
+  height: 60vh;
+  display: flex;
+  gap: 2rem;
+  padding: 0 10rem;
+}
+.testimonials .text {
+  flex: 1;
+}
+.testimonials .text .heading {
+  color: #0f0d1d;
+  font-size: 5rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5.3rem;
+  letter-spacing: -0.0021rem;
+  text-transform: uppercase;
+  padding-bottom: 2rem;
+}
+.testimonials .text .para {
+  color: #726f84;
+  font-size: 1.3rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: -0.0006rem;
+  padding-bottom: 3rem;
+}
+.testimonials .text .images {
+  display: flex;
+  gap: 3rem;
+}
+.testimonials .text .images div {
+  background-color: var(--color3);
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials .card {
+  flex: 1;
+  background-color: var(--color3);
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.12);
+  width: 25rem;
+  height: 28rem;
+  overflow: hidden;
+  padding: 3rem;
+}
+.testimonials .card .para {
+  color: #726f84;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  letter-spacing: -0.0006rem;
+  padding-bottom: 1rem;
+}
+.testimonials .card .name {
+  color: var(--blue);
+  font-size: 1.2rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.6rem;
+  letter-spacing: -0.0005rem;
+  text-transform: uppercase;
+}
+.testimonials .card .customer {
+  color: #726f84;
+  font-size: 0.9rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+  letter-spacing: 0.0019rem;
+  text-transform: uppercase;
+}
+.consultingSection {
+  height: 50vh;
+  background-color: #07122dfa;
+}
+.consultingDivContainer {
+  display: flex;
+  padding-top: 5rem;
+}
+.consultingDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex: 1;
+  border-right: 0.5px rgba(112, 112, 112, 0.7) solid;
+}
+.consultingDivContainer .consultingDiv:last-child {
+  border-right: none !important;
+}
+.consultingDiv .image {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  width: 9rem;
+  margin-bottom: 0.5rem;
+}
+.consultingDiv .number {
+  color: var(--color3);
+  font-size: 3rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.2rem;
+  letter-spacing: -0.0013rem;
+  margin-bottom: 1.2rem;
+}
+.consultingDiv .text {
+  color: var(--color3);
+  font-size: 1.2rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.2rem;
+  letter-spacing: -0.0004rem;
+}
+.succesRateSection {
+  height: 60vh;
+  padding-top: 12rem;
+}
+.succesRateSection .divContainer {
+  display: flex;
+}
+.divContainer .firstDiv {
+  flex: 1;
+  border-right: 0.5px #e6e9ef solid;
+}
+.divContainer .firstDiv .divContent {
+  display: flex;
+}
+.divContent .text .heading {
+  color: #0f0d1d;
+  font-size: 1.7rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6rem;
+  padding-bottom: 2rem;
+}
+.divContent .text .para {
+  color: #726f84;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+.divContainer .firstDiv .divContent .icon {
+  background-color: #ebf1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7rem;
+  height: 7rem;
+  margin-right: 3rem;
+}
+.divContainer .firstDiv .divContent .icon img {
+  width: 2rem;
+  height: 2rem;
+}
+.firstDiv .marginTop {
+  margin-top: 5rem;
+}
+.secondDiv {
+  flex: 1;
+  padding-left: 3rem;
+}
+.secondDiv .para {
+  color: #726f84;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+.secondDiv .bottomContent {
+  margin-top: 7rem;
+}
+.secondDiv .bottomContent div {
+  color: #726f84;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.4rem;
+}
+.secondDiv .bottomContent img {
+  margin-right: 2rem;
+  padding-bottom: 1rem;
+}
+.emptyDiv {
+  flex: 1;
+}
+.linksSection {
+  padding-top: 12rem;
+  height: 71vh;
+  background-color: #0f0d1d;
+  width: 100%;
+  border-bottom: 0.5px rgba(255, 255, 255, 0.16) solid;
+}
+.linksSection .divsContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.creativeLogo {
+  width: 37%;
+}
+.creativeLogo .heading {
+  color: var(--color3);
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.4rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+.creativeLogo .para {
+  color: #8f8da0;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.7rem;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: 0.5px rgba(255, 255, 255, 0.14) solid;
+}
+.contacts div {
+  color: #8f8da0;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.4rem;
+}
+.contacts a {
+  text-decoration: none;
+  color: #8f8da0;
+}
+.contacts span {
+  margin-right: 2rem;
+}
+.explore {
+  width: 26%;
+}
+.explore .heading,
+.newsLetter .heading {
+  color: var(--color3);
+  font-size: 1.6rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.8rem;
+  padding-left: 2rem;
+  text-transform: uppercase;
+}
+.linksList {
+  display: flex;
+  gap: 2rem;
+}
+.linksList ul li a {
+  color: #8f8da0;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 5rem;
+  text-decoration: none;
+}
+.newsLetter {
+  width: 37%;
+}
+.newsletterDiv {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #06050c;
+  width: 47rem;
+  height: 15rem;
+}
+.newsLetterText {
+  color: #8f8da0;
+  font-size: 1.4rem;
+  font-family: "Jost" sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.8rem;
+  margin-bottom: 1.5rem;
+}
+form {
+  position: relative;
+}
+input[type="email"] {
+  width: 36rem;
+  height: 5rem;
+  font-size: 1.4rem;
+  border: none;
+  outline: none;
+  padding-left: 2rem;
+}
+input[type="submit"] {
+  position: absolute;
+  right: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--blue);
+  border: none;
+  outline: none;
+  width: 8rem;
+  height: 3.5rem;
+  color: var(--color3);
+  font-size: 1.2rem;
+  font-family: "Jost" sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.8rem;
+  text-transform: uppercase;
+}
+.threecards .content {
+  display: flex;
+  position: absolute;
+  top: 45%;
+  left: 10%;
+}
+.threecards .content .card {
+  flex: 1;
+  background-color: var(--color1);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.16);
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f0d1d;
+  font-size: 1.7rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.2rem;
+  letter-spacing: -0.0006rem;
+  text-transform: uppercase;
+}
+.threecards .content .card:hover {
+  background-color: var(--color3);
+  box-shadow: 0 10px 61px rgba(0, 0, 0, 0.16);
+  color: var(--blue);
+}
+footer {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f0d1d;
+}
+footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .content .copyright {
+  color: #8f8da0;
+  font-size: 1.4rem;
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.7rem;
+}
+footer .content .socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+footer .content .socialIcons img {
+  width: 3rem;
+  height: 3rem;
+}
+@media only screen and (max-width: 1400px) {
+  html {
+    font-size: 58%;
+  }
+  .owl-carousel .card {
+    width: 38rem;
+  }
+  .testimonials .text .heading {
+    font-size: 4rem;
+  }
+}
